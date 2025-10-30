@@ -1,0 +1,6 @@
+open module Ecosystem
+
+class Ecosystem {
+    location: String
+    food: Listing<String>
+}

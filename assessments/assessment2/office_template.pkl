@@ -1,0 +1,13 @@
+typealias Division= String
+office: Office
+
+class Office {
+    title: String
+    divisions: Mapping<Division, Properties>
+}
+
+class Properties {
+    population: Int
+    description: String
+    reviews: String
+}

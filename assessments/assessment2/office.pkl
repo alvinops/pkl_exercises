@@ -1,0 +1,21 @@
+import "office_template.pkl" as OfficeTemplate  
+office = (OfficeTemplate.Office) {
+    title = "opswerks"
+    divisions {
+        ["batwing 1"] = (OfficeTemplate.Properties) {
+            population = 20
+            description = "Responsible in build & release, D2P, and data services"
+            reviews = "Very Good"
+        }
+        ["batwing 2"] = (OfficeTemplate.Properties) {
+            population = 18
+            description = "Responsible in logs and monitoring"
+            reviews = "Very Good"
+        }
+        ["batwing 3"] = (OfficeTemplate.Properties) {
+            population = 11
+            description = "Responsible in Vault, Traffic, and Cloud Engineering"
+            reviews = "Very Good"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+bottle {
+    Sip {
+        volumes {
+            500
+            350
+        }
+        type = "water"
+        brand = "Sip"
+    }
+    Coke {
+        volumes {
+            1000
+            500
+            350
+            200
+        }
+        type = "carbonated drink"
+        brand = "coca-cola"
+    }
+    rootbeer {
+        volumes {
+            280
+        }
+        type = "carbonated drink"
+        brand = "rite n lite"
+    }
+}

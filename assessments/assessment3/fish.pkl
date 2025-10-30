@@ -1,0 +1,18 @@
+extends "fish_template.pkl"
+
+fish {
+    ["tilapia"] {
+        name = "Tilapia"
+        canBeEaten = true
+        ecosystem = tilapiaEco
+    }
+}
+
+local tilapiaEco = (Ecosystem) {
+    location = "fresh water"
+    food {
+        "moss"
+        "pellets"
+        "chicken poop"
+    }
+}
