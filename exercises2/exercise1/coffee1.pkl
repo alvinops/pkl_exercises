@@ -1,0 +1,10 @@
+import "CoffeeTemplate.pkl"
+
+title = "Cofeee POWER"
+
+coffee = (CoffeeTemplate.Coffee) {
+    flavor = "bitter"
+    acidityLevel = 10
+    color = "Dark Brown"
+    name = "Dark Kape"
+}

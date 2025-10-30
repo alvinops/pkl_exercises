@@ -1,0 +1,24 @@
+import "coffee_mapping.pkl" as CoffeeTemplate
+
+title = "Cofeee POWER"
+
+local _coffeesByKey = new {
+    ["dark"] = new CoffeeTemplate.Coffee {
+        flavor = "bitter"
+        acidityLevel = 10
+        color = "Dark Brown"
+        name = "Dark Kape"
+    }
+    ["light"] = new CoffeeTemplate.Coffee {
+        flavor = "sweet"
+        acidityLevel = 1
+        color = "Light Brown"
+        name = "Sweet Kopi"
+    }
+}
+
+coffee { 
+    for (coffee in _coffeesByKey.toMap().values) {
+        coffee
+    }
+}

@@ -1,0 +1,18 @@
+import "coffee_listing.pkl" as CoffeeTemplate
+
+title = "Cofeee POWER"
+
+coffees = new {
+    new CoffeeTemplate.Coffee {
+        flavor = "bitter"
+        acidityLevel = 10
+        color = "Dark Brown"
+        name = "Dark Kape"
+    }
+    new CoffeeTemplate.Coffee {
+        flavor = "sweet"
+        acidityLevel = 1
+        color = "Light Brown"
+        name = "Sweet Kopi"
+    }
+}

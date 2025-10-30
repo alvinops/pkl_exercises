@@ -1,0 +1,10 @@
+module CoffeeTemplate
+
+title: String
+
+class Coffee {
+    flavor: String
+    acidityLevel: Int
+    color: String
+    name: String
+}
